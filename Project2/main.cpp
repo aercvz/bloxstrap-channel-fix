@@ -39,6 +39,7 @@ int main() {
     input_settings_data.close();
 
     json_data["Channel"] = "Live";
+    json_data["OhHeyYouFoundMe"] = true;
 
     cout << "setting json data..." << endl;
     ofstream output_settings_data(settings_file);
